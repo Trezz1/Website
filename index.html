@@ -4,14 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first website</title>
+    <title>My Website</title>
+    <style>
+        #beige-area {
+            color: black;
+            background-color: beige;
+            width: 98%;
+            padding: 25px 5px 50px 20px;
+            border: 5px black solid;
+        }
+        #grey-area {
+            color: black;
+            background: lightgrey;
+            width: 98%;
+            padding: 25px 5px 50px 20px;
+            border: 5px black solid;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 1px;
+            float: left;
+        }
+        .clear-float {
+            clear: both;
+        }
+        a {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: none;
+        }
+        #green {
+            color: green;
+
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to my first website!</h1>
-    <p>This is my second website i have made. It will propably break.</p>
-    <p>Im just kidding!</p>
-    <p>Take this picture of a duck!</p>
-    <img src="./duck.jpg">
-    <p>Also check out this very cool website! <a href="https://www.google.com"></a></p>
+    <div id="beige-area">
+        <h1>Welcome to my new website!</h1>
+        <p>Look at this picture of a duck</p>
+        <img src="duck.jpg">
+        <p>Look how cool it is.</p>
+        <p><a href="https://www.google.com"><b>Here is a link to google!</b></a></p>
+    </div>
+    <div id="grey-area">
+        <h1>In here you can see a text in different font.</h1>
+        <p><a>This is just some example text to show off my skills.</a></p>
+        <a href="https://www.google.com">
+            <img src="duck.jpg"/>
+        </a>
+        <p>Click the duck to go to <b>Google</b></p>
+        <p id="green">This is a green text!</p>
+    </div>
 </body>
 </html>
