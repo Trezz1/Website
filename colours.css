@@ -1,0 +1,22 @@
+.background {
+    background-color: lightgrey;
+    border: 5px;
+}
+h1 {
+    color: lightblue;
+}
+p {
+    font-size: 35px;
+    
+    color: darkgrey;
+    
+}
+.card-container {
+    display: flex; /* enable flexbox on the card container */
+    flex-wrap: wrap; /* allow the cards to wrap to the next line */
+    height: 100px;
+  }
+  .card {
+    flex: 1 0 300px; /* take up 1 unit of space, but have a minimum width of 200px */
+    border: 2px black solid;
+  }
